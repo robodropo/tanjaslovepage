@@ -1,0 +1,260 @@
+body {
+    font-family: "Amatic SC", cursive;
+    background-color: rgb(23, 190, 202);
+    font-size: 30px;
+    line-height: 1.5;
+}
+h1 {
+    text-align: center;
+    color: rgb(81, 7, 150);
+    font-style: italic;
+    font-weight: bolder;
+}
+.rechte {
+    text-align: center;
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+p {
+    text-align: center;
+}
+img {
+    max-width: 100%; /* Bild wird niemals größer als sein Container */
+    height: auto; /* Höhe passt sich automatisch an */
+    border-radius: 15px;
+}
+.zurueck-button {
+    display: inline-block; /* Macht den Link wie einen Button */
+    padding: 10px 20px; /* Innenabstand für eine gute Button-Größe */
+    background-color: #460e7a; /* Blau wie typische Buttons */
+    color: white; /* Weiße Schrift */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    font-size: 16px; /* Textgröße */
+    border-radius: 5px; /* Abgerundete Ecken */
+    transition: background-color 0.3s ease; /* Weiche Hover-Animation */
+}
+
+.zurueck-button:hover {
+    background-color: #5c00b3; /* Dunkleres Blau beim Drüberfahren */
+}
+h2 {
+    text-align: center;
+    color: rgb(81, 7, 150);
+    font-style: italic;
+    font-weight: bolder; 
+}
+.startseite-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #460e7a;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.startseite-button:hover {
+    background-color: #23053f;
+}
+
+.gif {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+
+/* Styling für die Navigation auf der Startseite */
+.startbuttons {
+    text-align: center; /* Zentriert die Navigation */
+    margin-top: 20px; /* Abstand nach oben */
+}
+
+/* Nur die Links innerhalb von .startbuttons als Buttons stylen */
+.startbuttons a {
+    display: inline-block; /* Macht die Links wie einen Button */
+    background-color: #460e7aff; /* Blau wie typische Buttons */
+    color: white; /* Weiße Schrift */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    padding: 10px 20px; /* Innenabstand für schöne Buttons */
+    margin: 10px; /* Abstand zwischen den Buttons */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 16px; /* Schriftgröße */
+    font-weight: bold; /* Dickere Schrift */
+    transition: background-color 0.3s ease; /* Weiche Hover-Animation */
+}
+
+/* Farbe ändern, wenn die Maus darüber fährt */
+.startbuttons a:hover {
+    background-color: #0056b3; /* Dunkleres Blau beim Hover */
+}
+
+/* Urlaubsliste Styling */
+.urlaubsliste {
+    list-style-type: none; /* Entfernt die Standard-Punkte */
+    padding: 0; /* Entfernt unnötige Abstände */
+    text-align: center; /* Zentriert die Liste */
+}
+
+.urlaubsliste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.urlaubsliste li {
+
+    width: 300px; /* Setzt eine feste Breite für alle Buttons */
+   
+}
+
+/* Buttons schön gestalten */
+.urlaubsliste a {
+    display: block; /* Sorgt dafür, dass die ganze Fläche klickbar ist */
+    background-color: #5b0aa7; /* Blau */
+    color: white; /* Weiße Schrift */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    padding: 15px 0; /* Mehr Innenabstand für schönere Buttons */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 16px; /* Einheitliche Schriftgröße */
+    font-weight: bold;
+    text-align: center; /* Zentriert den Text */
+    transition: background-color 0.3s ease;
+    width: 100%; /* Damit die Buttons gleichmäßig die `li`-Breite füllen */
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+}
+
+/* Farbe ändern beim Drüberfahren */
+.urlaubsliste a:hover {
+    background-color: #0056b3;
+}
+
+.giphy {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.herzen {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Formular-Container mittig ausrichten */
+form {
+    width: 50%; /* Breite des Formulars auf 50% der Seite setzen */
+    margin: 20px auto; /* Zentriert das Formular horizontal */
+    background-color: white; /* Hintergrundfarbe */
+    padding: 20px; /* Abstand innen */
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    text-align: center; /* Inhalt im Formular zentrieren */
+}
+
+/* Eingabefelder größer machen */
+textarea {
+    width: 95%; /* Breite anpassen */
+    height: 150px; /* Höhe vergrößern */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Verhindert, dass der Nutzer die Größe verändert */
+}
+
+/* Styling für den Abschicken-Button */
+input[type="submit"] {
+    display: inline-block;
+    background-color: #460e7a; /* Gleiche Farbe wie deine anderen Buttons */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover-Effekt für den Button */
+input[type="submit"]:hover {
+    background-color: #5c00b3; /* Gleicher Hover-Effekt wie deine anderen Buttons */
+}
+
+/* Basis: Alles wird standardmäßig für große Bildschirme (PC) gemacht */
+
+/* 📌 Kleinere Bildschirme (Tablets & Handys) */
+@media (max-width: 1024px) {
+    /* Buttons & Navigation für kleine Displays optimieren */
+    .startbuttons a, .urlaubsliste a {
+        width: 100%; /* Buttons nehmen die volle Breite ein */
+        text-align: center;
+    }
+
+    /* Formular & Eingabefelder anpassen */
+    form {
+        width: 80%; /* Formular breiter machen für kleinere Bildschirme */
+    }
+
+    textarea {
+        height: 120px; /* Textfeld kleiner machen */
+    }
+}
+
+/* 📌 Sehr kleine Bildschirme (Smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Etwas kleinere Schrift für bessere Lesbarkeit */
+    }
+
+    /* Navigation optimieren */
+    nav {
+        display: flex;
+        flex-direction: column; /* Links untereinander statt nebeneinander */
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav a {
+        width: 80%; /* Links breiter machen */
+        padding: 12px; /* Mehr Platz für Touchscreen-Bedienung */
+    }
+
+    /* Bilder & GIFs skalieren */
+    img {
+        width: 100%; /* Bilder passen sich automatisch der Bildschirmbreite an */
+        max-width: 400px; /* Aber nicht größer als 400px */
+        height: auto; /* Verhältnis beibehalten */
+    }
+
+    /* Formular & Eingabefelder */
+    form {
+        width: 90%;
+    }
+    .startbuttons a {
+        width: 100%;
+        padding: 12px;
+    }
+    form {
+        margin-top: 40px;
+    }
+}
+/* Einheitliche Hover-Farbe für alle Buttons */
+.startbuttons a:hover, 
+.urlaubsliste a:hover, 
+input[type="submit"]:hover, 
+.startseite-button:hover, 
+.zurueck-button:hover {
+    background-color: #5c00b3; /* Einheitliches Lila für Hover */
+}
+
